@@ -73,4 +73,5 @@ int main()
     return 0;
 }
 
-
+// time complexity -> O(m X n)
+// space complexity -> O(m X n)
