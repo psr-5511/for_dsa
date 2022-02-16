@@ -46,3 +46,7 @@ int main()
     cout<<"count of 1 is:"<<count(head,1);
     return 0;
 }
+
+
+// time complexity--> O(n)
+// space complexity--> O(1)
