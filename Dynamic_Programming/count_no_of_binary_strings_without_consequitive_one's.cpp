@@ -17,3 +17,6 @@ int main()
     cout << countStrings(3) << endl;
     return 0;
 }
+
+// time complexity -> O(n)
+// space complexity -> O(n)
