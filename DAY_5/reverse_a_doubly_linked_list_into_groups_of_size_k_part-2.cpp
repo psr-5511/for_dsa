@@ -124,4 +124,5 @@ int main()
 	return 0;
 }
 
-// This code is contributed by Tapesh (tapeshdua420)
+// time complexity -> O(N)
+// space complexity -> O(1)
