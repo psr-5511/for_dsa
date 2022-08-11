@@ -45,3 +45,7 @@ int main()
 	
 	return 0;
 }
+
+// time complexity - O(N*K)
+
+// space complexity - O(K)
