@@ -28,4 +28,11 @@ int main()
     cout<<"The length of the longest increasing subsequence :"<<LIS_using_BS(arr,n);
     return 0;
 }
+/* time complexity : O(N*logN)
+ * reason : we iterate over the array of size N and in  every iteration , we perform a binary search
+ *          which takes logN time .
+ *
+ *  space complexity: O(N)
+ *  reason : we are using an extra array of size  N  to store the temp variable .
+ * */
 
