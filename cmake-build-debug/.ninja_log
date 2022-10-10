@@ -1,0 +1,10 @@
+# ninja log v5
+21	383	6871115044236611	build.ninja	dc772587e25b7fda
+3	809	6871003295718667	CMakeFiles/Stack.dir/Stack_using_arrays.cpp.obj	8ac66a541af31c9d
+809	882	6871003296454515	Stack.exe	7d33e98b023119cd
+2	2462	6871330012630916	CMakeFiles/Stack_using_LinkedList.dir/Stack_using_LinkedList.cpp.obj	9c405a38e026b36e
+2462	2710	6871330015089579	Stack_using_LinkedList.exe	a2c752a932ef67a5
+4	918	6871330249084280	CMakeFiles/Stack_using_LinkedList.dir/Stack_using_LinkedList.cpp.obj	9c405a38e026b36e
+919	1011	6871330250011933	Stack_using_LinkedList.exe	a2c752a932ef67a5
+3	950	6871336618395210	CMakeFiles/Stack_using_LinkedList.dir/Stack_using_LinkedList.cpp.obj	9c405a38e026b36e
+951	1036	6871336619327118	Stack_using_LinkedList.exe	a2c752a932ef67a5
