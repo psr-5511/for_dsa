@@ -65,4 +65,9 @@ int main()
     cout << "Celebrity ID " << id;
     return 0;
 }
+// time complexity : O(N)
+// reason : the total number of comparisons 3*(N-1) .
+
+// space complexity : O(N)
+// reason : n extra space is needed to store the stack .
 
