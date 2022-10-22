@@ -139,6 +139,303 @@ build Stack_using_LinkedList.exe: CXX_EXECUTABLE_LINKER__Stack_using_LinkedList_
   TARGET_IMPLIB = libStack_using_LinkedList.dll.a
   TARGET_PDB = Stack_using_LinkedList.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Delete_Middle_Element
+
+
+#############################################
+# Order-only phony target for Delete_Middle_Element
+
+build cmake_object_order_depends_target_Delete_Middle_Element: phony || CMakeFiles/Delete_Middle_Element.dir
+
+build CMakeFiles/Delete_Middle_Element.dir/Practice/Delete_Middle_Element.cpp.obj: CXX_COMPILER__Delete_Middle_Element_Debug C$:/Users/honey/CLionProjects/Stack/Practice/Delete_Middle_Element.cpp || cmake_object_order_depends_target_Delete_Middle_Element
+  DEP_FILE = CMakeFiles\Delete_Middle_Element.dir\Practice\Delete_Middle_Element.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Delete_Middle_Element.dir
+  OBJECT_FILE_DIR = CMakeFiles\Delete_Middle_Element.dir\Practice
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Delete_Middle_Element
+
+
+#############################################
+# Link the executable Delete_Middle_Element.exe
+
+build Delete_Middle_Element.exe: CXX_EXECUTABLE_LINKER__Delete_Middle_Element_Debug CMakeFiles/Delete_Middle_Element.dir/Practice/Delete_Middle_Element.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Delete_Middle_Element.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Delete_Middle_Element.exe
+  TARGET_IMPLIB = libDelete_Middle_Element.dll.a
+  TARGET_PDB = Delete_Middle_Element.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Stack_in_STL
+
+
+#############################################
+# Order-only phony target for Stack_in_STL
+
+build cmake_object_order_depends_target_Stack_in_STL: phony || CMakeFiles/Stack_in_STL.dir
+
+build CMakeFiles/Stack_in_STL.dir/Stack_in_STL.cpp.obj: CXX_COMPILER__Stack_in_STL_Debug C$:/Users/honey/CLionProjects/Stack/Stack_in_STL.cpp || cmake_object_order_depends_target_Stack_in_STL
+  DEP_FILE = CMakeFiles\Stack_in_STL.dir\Stack_in_STL.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Stack_in_STL.dir
+  OBJECT_FILE_DIR = CMakeFiles\Stack_in_STL.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Stack_in_STL
+
+
+#############################################
+# Link the executable Stack_in_STL.exe
+
+build Stack_in_STL.exe: CXX_EXECUTABLE_LINKER__Stack_in_STL_Debug CMakeFiles/Stack_in_STL.dir/Stack_in_STL.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Stack_in_STL.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Stack_in_STL.exe
+  TARGET_IMPLIB = libStack_in_STL.dll.a
+  TARGET_PDB = Stack_in_STL.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Balanced_Bracket
+
+
+#############################################
+# Order-only phony target for Balanced_Bracket
+
+build cmake_object_order_depends_target_Balanced_Bracket: phony || CMakeFiles/Balanced_Bracket.dir
+
+build CMakeFiles/Balanced_Bracket.dir/Practice/Balanced_Bracket.cpp.obj: CXX_COMPILER__Balanced_Bracket_Debug C$:/Users/honey/CLionProjects/Stack/Practice/Balanced_Bracket.cpp || cmake_object_order_depends_target_Balanced_Bracket
+  DEP_FILE = CMakeFiles\Balanced_Bracket.dir\Practice\Balanced_Bracket.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Balanced_Bracket.dir
+  OBJECT_FILE_DIR = CMakeFiles\Balanced_Bracket.dir\Practice
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Balanced_Bracket
+
+
+#############################################
+# Link the executable Balanced_Bracket.exe
+
+build Balanced_Bracket.exe: CXX_EXECUTABLE_LINKER__Balanced_Bracket_Debug CMakeFiles/Balanced_Bracket.dir/Practice/Balanced_Bracket.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Balanced_Bracket.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Balanced_Bracket.exe
+  TARGET_IMPLIB = libBalanced_Bracket.dll.a
+  TARGET_PDB = Balanced_Bracket.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Insert_Element_at_Bottom
+
+
+#############################################
+# Order-only phony target for Insert_Element_at_Bottom
+
+build cmake_object_order_depends_target_Insert_Element_at_Bottom: phony || CMakeFiles/Insert_Element_at_Bottom.dir
+
+build CMakeFiles/Insert_Element_at_Bottom.dir/Practice/Insert_Element_at_Bottom.cpp.obj: CXX_COMPILER__Insert_Element_at_Bottom_Debug C$:/Users/honey/CLionProjects/Stack/Practice/Insert_Element_at_Bottom.cpp || cmake_object_order_depends_target_Insert_Element_at_Bottom
+  DEP_FILE = CMakeFiles\Insert_Element_at_Bottom.dir\Practice\Insert_Element_at_Bottom.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Insert_Element_at_Bottom.dir
+  OBJECT_FILE_DIR = CMakeFiles\Insert_Element_at_Bottom.dir\Practice
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Insert_Element_at_Bottom
+
+
+#############################################
+# Link the executable Insert_Element_at_Bottom.exe
+
+build Insert_Element_at_Bottom.exe: CXX_EXECUTABLE_LINKER__Insert_Element_at_Bottom_Debug CMakeFiles/Insert_Element_at_Bottom.dir/Practice/Insert_Element_at_Bottom.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Insert_Element_at_Bottom.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Insert_Element_at_Bottom.exe
+  TARGET_IMPLIB = libInsert_Element_at_Bottom.dll.a
+  TARGET_PDB = Insert_Element_at_Bottom.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Reverse_a_Stack_Using_Recursion
+
+
+#############################################
+# Order-only phony target for Reverse_a_Stack_Using_Recursion
+
+build cmake_object_order_depends_target_Reverse_a_Stack_Using_Recursion: phony || CMakeFiles/Reverse_a_Stack_Using_Recursion.dir
+
+build CMakeFiles/Reverse_a_Stack_Using_Recursion.dir/Practice/Reverse_a_Stack_Using_Recursion.cpp.obj: CXX_COMPILER__Reverse_a_Stack_Using_Recursion_Debug C$:/Users/honey/CLionProjects/Stack/Practice/Reverse_a_Stack_Using_Recursion.cpp || cmake_object_order_depends_target_Reverse_a_Stack_Using_Recursion
+  DEP_FILE = CMakeFiles\Reverse_a_Stack_Using_Recursion.dir\Practice\Reverse_a_Stack_Using_Recursion.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Reverse_a_Stack_Using_Recursion.dir
+  OBJECT_FILE_DIR = CMakeFiles\Reverse_a_Stack_Using_Recursion.dir\Practice
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Reverse_a_Stack_Using_Recursion
+
+
+#############################################
+# Link the executable Reverse_a_Stack_Using_Recursion.exe
+
+build Reverse_a_Stack_Using_Recursion.exe: CXX_EXECUTABLE_LINKER__Reverse_a_Stack_Using_Recursion_Debug CMakeFiles/Reverse_a_Stack_Using_Recursion.dir/Practice/Reverse_a_Stack_Using_Recursion.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Reverse_a_Stack_Using_Recursion.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Reverse_a_Stack_Using_Recursion.exe
+  TARGET_IMPLIB = libReverse_a_Stack_Using_Recursion.dll.a
+  TARGET_PDB = Reverse_a_Stack_Using_Recursion.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Sort_Stack_Using_Recursion
+
+
+#############################################
+# Order-only phony target for Sort_Stack_Using_Recursion
+
+build cmake_object_order_depends_target_Sort_Stack_Using_Recursion: phony || CMakeFiles/Sort_Stack_Using_Recursion.dir
+
+build CMakeFiles/Sort_Stack_Using_Recursion.dir/Practice/Sort_Stack_Using_Recursion.cpp.obj: CXX_COMPILER__Sort_Stack_Using_Recursion_Debug C$:/Users/honey/CLionProjects/Stack/Practice/Sort_Stack_Using_Recursion.cpp || cmake_object_order_depends_target_Sort_Stack_Using_Recursion
+  DEP_FILE = CMakeFiles\Sort_Stack_Using_Recursion.dir\Practice\Sort_Stack_Using_Recursion.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Sort_Stack_Using_Recursion.dir
+  OBJECT_FILE_DIR = CMakeFiles\Sort_Stack_Using_Recursion.dir\Practice
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Sort_Stack_Using_Recursion
+
+
+#############################################
+# Link the executable Sort_Stack_Using_Recursion.exe
+
+build Sort_Stack_Using_Recursion.exe: CXX_EXECUTABLE_LINKER__Sort_Stack_Using_Recursion_Debug CMakeFiles/Sort_Stack_Using_Recursion.dir/Practice/Sort_Stack_Using_Recursion.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Sort_Stack_Using_Recursion.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Sort_Stack_Using_Recursion.exe
+  TARGET_IMPLIB = libSort_Stack_Using_Recursion.dll.a
+  TARGET_PDB = Sort_Stack_Using_Recursion.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Minimum_Bracket_Reversal
+
+
+#############################################
+# Order-only phony target for Minimum_Bracket_Reversal
+
+build cmake_object_order_depends_target_Minimum_Bracket_Reversal: phony || CMakeFiles/Minimum_Bracket_Reversal.dir
+
+build CMakeFiles/Minimum_Bracket_Reversal.dir/Practice/Minimum_Bracket_Reversal.cpp.obj: CXX_COMPILER__Minimum_Bracket_Reversal_Debug C$:/Users/honey/CLionProjects/Stack/Practice/Minimum_Bracket_Reversal.cpp || cmake_object_order_depends_target_Minimum_Bracket_Reversal
+  DEP_FILE = CMakeFiles\Minimum_Bracket_Reversal.dir\Practice\Minimum_Bracket_Reversal.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Minimum_Bracket_Reversal.dir
+  OBJECT_FILE_DIR = CMakeFiles\Minimum_Bracket_Reversal.dir\Practice
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Minimum_Bracket_Reversal
+
+
+#############################################
+# Link the executable Minimum_Bracket_Reversal.exe
+
+build Minimum_Bracket_Reversal.exe: CXX_EXECUTABLE_LINKER__Minimum_Bracket_Reversal_Debug CMakeFiles/Minimum_Bracket_Reversal.dir/Practice/Minimum_Bracket_Reversal.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Minimum_Bracket_Reversal.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Minimum_Bracket_Reversal.exe
+  TARGET_IMPLIB = libMinimum_Bracket_Reversal.dll.a
+  TARGET_PDB = Minimum_Bracket_Reversal.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Celebrity_Problem
+
+
+#############################################
+# Order-only phony target for Celebrity_Problem
+
+build cmake_object_order_depends_target_Celebrity_Problem: phony || CMakeFiles/Celebrity_Problem.dir
+
+build CMakeFiles/Celebrity_Problem.dir/Practice/Celebrity_Problem.cpp.obj: CXX_COMPILER__Celebrity_Problem_Debug C$:/Users/honey/CLionProjects/Stack/Practice/Celebrity_Problem.cpp || cmake_object_order_depends_target_Celebrity_Problem
+  DEP_FILE = CMakeFiles\Celebrity_Problem.dir\Practice\Celebrity_Problem.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Celebrity_Problem.dir
+  OBJECT_FILE_DIR = CMakeFiles\Celebrity_Problem.dir\Practice
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Celebrity_Problem
+
+
+#############################################
+# Link the executable Celebrity_Problem.exe
+
+build Celebrity_Problem.exe: CXX_EXECUTABLE_LINKER__Celebrity_Problem_Debug CMakeFiles/Celebrity_Problem.dir/Practice/Celebrity_Problem.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Celebrity_Problem.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Celebrity_Problem.exe
+  TARGET_IMPLIB = libCelebrity_Problem.dll.a
+  TARGET_PDB = Celebrity_Problem.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Celebrity_Problem_Approach_2
+
+
+#############################################
+# Order-only phony target for Celebrity_Problem_Approach_2
+
+build cmake_object_order_depends_target_Celebrity_Problem_Approach_2: phony || CMakeFiles/Celebrity_Problem_Approach_2.dir
+
+build CMakeFiles/Celebrity_Problem_Approach_2.dir/Practice/Celebrity_Problem_Approach_2.cpp.obj: CXX_COMPILER__Celebrity_Problem_Approach_2_Debug C$:/Users/honey/CLionProjects/Stack/Practice/Celebrity_Problem_Approach_2.cpp || cmake_object_order_depends_target_Celebrity_Problem_Approach_2
+  DEP_FILE = CMakeFiles\Celebrity_Problem_Approach_2.dir\Practice\Celebrity_Problem_Approach_2.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Celebrity_Problem_Approach_2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Celebrity_Problem_Approach_2.dir\Practice
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Celebrity_Problem_Approach_2
+
+
+#############################################
+# Link the executable Celebrity_Problem_Approach_2.exe
+
+build Celebrity_Problem_Approach_2.exe: CXX_EXECUTABLE_LINKER__Celebrity_Problem_Approach_2_Debug CMakeFiles/Celebrity_Problem_Approach_2.dir/Practice/Celebrity_Problem_Approach_2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Celebrity_Problem_Approach_2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Celebrity_Problem_Approach_2.exe
+  TARGET_IMPLIB = libCelebrity_Problem_Approach_2.dll.a
+  TARGET_PDB = Celebrity_Problem_Approach_2.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -165,7 +462,25 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build Balanced_Bracket: phony Balanced_Bracket.exe
+
+build Celebrity_Problem: phony Celebrity_Problem.exe
+
+build Celebrity_Problem_Approach_2: phony Celebrity_Problem_Approach_2.exe
+
+build Delete_Middle_Element: phony Delete_Middle_Element.exe
+
+build Insert_Element_at_Bottom: phony Insert_Element_at_Bottom.exe
+
+build Minimum_Bracket_Reversal: phony Minimum_Bracket_Reversal.exe
+
+build Reverse_a_Stack_Using_Recursion: phony Reverse_a_Stack_Using_Recursion.exe
+
+build Sort_Stack_Using_Recursion: phony Sort_Stack_Using_Recursion.exe
+
 build Stack: phony Stack.exe
+
+build Stack_in_STL: phony Stack_in_STL.exe
 
 build Stack_using_LinkedList: phony Stack_using_LinkedList.exe
 
@@ -179,7 +494,7 @@ build Stack_using_arrays: phony Stack_using_arrays.exe
 #############################################
 # Folder: C:/Users/honey/CLionProjects/Stack/cmake-build-debug
 
-build all: phony Stack.exe Stack_using_arrays.exe Stack_using_LinkedList.exe
+build all: phony Stack.exe Stack_using_arrays.exe Stack_using_LinkedList.exe Delete_Middle_Element.exe Stack_in_STL.exe Balanced_Bracket.exe Insert_Element_at_Bottom.exe Reverse_a_Stack_Using_Recursion.exe Sort_Stack_Using_Recursion.exe Minimum_Bracket_Reversal.exe Celebrity_Problem.exe Celebrity_Problem_Approach_2.exe
 
 # =============================================================================
 # Built-in targets

@@ -1,5 +1,14 @@
 C:/Users/honey/CLionProjects/Stack/cmake-build-debug/CMakeFiles/Stack.dir
 C:/Users/honey/CLionProjects/Stack/cmake-build-debug/CMakeFiles/Stack_using_arrays.dir
 C:/Users/honey/CLionProjects/Stack/cmake-build-debug/CMakeFiles/Stack_using_LinkedList.dir
+C:/Users/honey/CLionProjects/Stack/cmake-build-debug/CMakeFiles/Delete_Middle_Element.dir
+C:/Users/honey/CLionProjects/Stack/cmake-build-debug/CMakeFiles/Stack_in_STL.dir
+C:/Users/honey/CLionProjects/Stack/cmake-build-debug/CMakeFiles/Balanced_Bracket.dir
+C:/Users/honey/CLionProjects/Stack/cmake-build-debug/CMakeFiles/Insert_Element_at_Bottom.dir
+C:/Users/honey/CLionProjects/Stack/cmake-build-debug/CMakeFiles/Reverse_a_Stack_Using_Recursion.dir
+C:/Users/honey/CLionProjects/Stack/cmake-build-debug/CMakeFiles/Sort_Stack_Using_Recursion.dir
+C:/Users/honey/CLionProjects/Stack/cmake-build-debug/CMakeFiles/Minimum_Bracket_Reversal.dir
+C:/Users/honey/CLionProjects/Stack/cmake-build-debug/CMakeFiles/Celebrity_Problem.dir
+C:/Users/honey/CLionProjects/Stack/cmake-build-debug/CMakeFiles/Celebrity_Problem_Approach_2.dir
 C:/Users/honey/CLionProjects/Stack/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/honey/CLionProjects/Stack/cmake-build-debug/CMakeFiles/rebuild_cache.dir
