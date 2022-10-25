@@ -10,5 +10,6 @@ C:/Users/honey/CLionProjects/Stack/cmake-build-debug/CMakeFiles/Sort_Stack_Using
 C:/Users/honey/CLionProjects/Stack/cmake-build-debug/CMakeFiles/Minimum_Bracket_Reversal.dir
 C:/Users/honey/CLionProjects/Stack/cmake-build-debug/CMakeFiles/Celebrity_Problem.dir
 C:/Users/honey/CLionProjects/Stack/cmake-build-debug/CMakeFiles/Celebrity_Problem_Approach_2.dir
+C:/Users/honey/CLionProjects/Stack/cmake-build-debug/CMakeFiles/Max_Rectangle.dir
 C:/Users/honey/CLionProjects/Stack/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/honey/CLionProjects/Stack/cmake-build-debug/CMakeFiles/rebuild_cache.dir

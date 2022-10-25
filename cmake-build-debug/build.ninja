@@ -436,6 +436,39 @@ build Celebrity_Problem_Approach_2.exe: CXX_EXECUTABLE_LINKER__Celebrity_Problem
   TARGET_IMPLIB = libCelebrity_Problem_Approach_2.dll.a
   TARGET_PDB = Celebrity_Problem_Approach_2.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Max_Rectangle
+
+
+#############################################
+# Order-only phony target for Max_Rectangle
+
+build cmake_object_order_depends_target_Max_Rectangle: phony || CMakeFiles/Max_Rectangle.dir
+
+build CMakeFiles/Max_Rectangle.dir/Practice/Max_Rectangle.cpp.obj: CXX_COMPILER__Max_Rectangle_Debug C$:/Users/honey/CLionProjects/Stack/Practice/Max_Rectangle.cpp || cmake_object_order_depends_target_Max_Rectangle
+  DEP_FILE = CMakeFiles\Max_Rectangle.dir\Practice\Max_Rectangle.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Max_Rectangle.dir
+  OBJECT_FILE_DIR = CMakeFiles\Max_Rectangle.dir\Practice
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Max_Rectangle
+
+
+#############################################
+# Link the executable Max_Rectangle.exe
+
+build Max_Rectangle.exe: CXX_EXECUTABLE_LINKER__Max_Rectangle_Debug CMakeFiles/Max_Rectangle.dir/Practice/Max_Rectangle.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Max_Rectangle.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Max_Rectangle.exe
+  TARGET_IMPLIB = libMax_Rectangle.dll.a
+  TARGET_PDB = Max_Rectangle.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -472,6 +505,8 @@ build Delete_Middle_Element: phony Delete_Middle_Element.exe
 
 build Insert_Element_at_Bottom: phony Insert_Element_at_Bottom.exe
 
+build Max_Rectangle: phony Max_Rectangle.exe
+
 build Minimum_Bracket_Reversal: phony Minimum_Bracket_Reversal.exe
 
 build Reverse_a_Stack_Using_Recursion: phony Reverse_a_Stack_Using_Recursion.exe
@@ -494,7 +529,7 @@ build Stack_using_arrays: phony Stack_using_arrays.exe
 #############################################
 # Folder: C:/Users/honey/CLionProjects/Stack/cmake-build-debug
 
-build all: phony Stack.exe Stack_using_arrays.exe Stack_using_LinkedList.exe Delete_Middle_Element.exe Stack_in_STL.exe Balanced_Bracket.exe Insert_Element_at_Bottom.exe Reverse_a_Stack_Using_Recursion.exe Sort_Stack_Using_Recursion.exe Minimum_Bracket_Reversal.exe Celebrity_Problem.exe Celebrity_Problem_Approach_2.exe
+build all: phony Stack.exe Stack_using_arrays.exe Stack_using_LinkedList.exe Delete_Middle_Element.exe Stack_in_STL.exe Balanced_Bracket.exe Insert_Element_at_Bottom.exe Reverse_a_Stack_Using_Recursion.exe Sort_Stack_Using_Recursion.exe Minimum_Bracket_Reversal.exe Celebrity_Problem.exe Celebrity_Problem_Approach_2.exe Max_Rectangle.exe
 
 # =============================================================================
 # Built-in targets

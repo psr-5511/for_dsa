@@ -16,3 +16,4 @@ add_executable(Sort_Stack_Using_Recursion Practice/Sort_Stack_Using_Recursion.cp
 add_executable(Minimum_Bracket_Reversal Practice/Minimum_Bracket_Reversal.cpp)
 add_executable(Celebrity_Problem Practice/Celebrity_Problem.cpp)
 add_executable(Celebrity_Problem_Approach_2 Practice/Celebrity_Problem_Approach_2.cpp)
+add_executable(Max_Rectangle Practice/Max_Rectangle.cpp)

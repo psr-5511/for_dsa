@@ -26,7 +26,8 @@
 						8,
 						9,
 						10,
-						11
+						11,
+						12
 					]
 				}
 			],
@@ -52,7 +53,8 @@
 						8,
 						9,
 						10,
-						11
+						11,
+						12
 					]
 				}
 			],
@@ -91,6 +93,13 @@
 					"id" : "Insert_Element_at_Bottom::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Insert_Element_at_Bottom-Debug-6b6e5be69660d39bb0d9.json",
 					"name" : "Insert_Element_at_Bottom",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Max_Rectangle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Max_Rectangle-Debug-f4625eae843e05fbba17.json",
+					"name" : "Max_Rectangle",
 					"projectIndex" : 0
 				},
 				{
