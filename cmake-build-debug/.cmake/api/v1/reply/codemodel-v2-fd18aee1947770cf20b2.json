@@ -27,7 +27,8 @@
 						9,
 						10,
 						11,
-						12
+						12,
+						13
 					]
 				}
 			],
@@ -54,7 +55,8 @@
 						9,
 						10,
 						11,
-						12
+						12,
+						13
 					]
 				}
 			],
@@ -107,6 +109,13 @@
 					"id" : "Minimum_Bracket_Reversal::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Minimum_Bracket_Reversal-Debug-05ea26a4d1edfae7e77d.json",
 					"name" : "Minimum_Bracket_Reversal",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "N-Stack_Array::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-N-Stack_Array-Debug-a7594947c1797fe2b888.json",
+					"name" : "N-Stack_Array",
 					"projectIndex" : 0
 				},
 				{

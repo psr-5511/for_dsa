@@ -8,6 +8,7 @@ C:/Users/honey/CLionProjects/Stack/cmake-build-debug/CMakeFiles/Insert_Element_a
 C:/Users/honey/CLionProjects/Stack/cmake-build-debug/CMakeFiles/Reverse_a_Stack_Using_Recursion.dir
 C:/Users/honey/CLionProjects/Stack/cmake-build-debug/CMakeFiles/Sort_Stack_Using_Recursion.dir
 C:/Users/honey/CLionProjects/Stack/cmake-build-debug/CMakeFiles/Minimum_Bracket_Reversal.dir
+C:/Users/honey/CLionProjects/Stack/cmake-build-debug/CMakeFiles/N-Stack_Array.dir
 C:/Users/honey/CLionProjects/Stack/cmake-build-debug/CMakeFiles/Celebrity_Problem.dir
 C:/Users/honey/CLionProjects/Stack/cmake-build-debug/CMakeFiles/Celebrity_Problem_Approach_2.dir
 C:/Users/honey/CLionProjects/Stack/cmake-build-debug/CMakeFiles/Max_Rectangle.dir

@@ -371,6 +371,39 @@ build Minimum_Bracket_Reversal.exe: CXX_EXECUTABLE_LINKER__Minimum_Bracket_Rever
   TARGET_PDB = Minimum_Bracket_Reversal.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target N-Stack_Array
+
+
+#############################################
+# Order-only phony target for N-Stack_Array
+
+build cmake_object_order_depends_target_N-Stack_Array: phony || CMakeFiles/N-Stack_Array.dir
+
+build CMakeFiles/N-Stack_Array.dir/Practice/N-Stack_Array.cpp.obj: CXX_COMPILER__N-Stack_Array_Debug C$:/Users/honey/CLionProjects/Stack/Practice/N-Stack_Array.cpp || cmake_object_order_depends_target_N-Stack_Array
+  DEP_FILE = CMakeFiles\N-Stack_Array.dir\Practice\N-Stack_Array.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\N-Stack_Array.dir
+  OBJECT_FILE_DIR = CMakeFiles\N-Stack_Array.dir\Practice
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target N-Stack_Array
+
+
+#############################################
+# Link the executable N-Stack_Array.exe
+
+build N-Stack_Array.exe: CXX_EXECUTABLE_LINKER__N-Stack_Array_Debug CMakeFiles/N-Stack_Array.dir/Practice/N-Stack_Array.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\N-Stack_Array.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = N-Stack_Array.exe
+  TARGET_IMPLIB = libN-Stack_Array.dll.a
+  TARGET_PDB = N-Stack_Array.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target Celebrity_Problem
 
 
@@ -509,6 +542,8 @@ build Max_Rectangle: phony Max_Rectangle.exe
 
 build Minimum_Bracket_Reversal: phony Minimum_Bracket_Reversal.exe
 
+build N-Stack_Array: phony N-Stack_Array.exe
+
 build Reverse_a_Stack_Using_Recursion: phony Reverse_a_Stack_Using_Recursion.exe
 
 build Sort_Stack_Using_Recursion: phony Sort_Stack_Using_Recursion.exe
@@ -529,7 +564,7 @@ build Stack_using_arrays: phony Stack_using_arrays.exe
 #############################################
 # Folder: C:/Users/honey/CLionProjects/Stack/cmake-build-debug
 
-build all: phony Stack.exe Stack_using_arrays.exe Stack_using_LinkedList.exe Delete_Middle_Element.exe Stack_in_STL.exe Balanced_Bracket.exe Insert_Element_at_Bottom.exe Reverse_a_Stack_Using_Recursion.exe Sort_Stack_Using_Recursion.exe Minimum_Bracket_Reversal.exe Celebrity_Problem.exe Celebrity_Problem_Approach_2.exe Max_Rectangle.exe
+build all: phony Stack.exe Stack_using_arrays.exe Stack_using_LinkedList.exe Delete_Middle_Element.exe Stack_in_STL.exe Balanced_Bracket.exe Insert_Element_at_Bottom.exe Reverse_a_Stack_Using_Recursion.exe Sort_Stack_Using_Recursion.exe Minimum_Bracket_Reversal.exe N-Stack_Array.exe Celebrity_Problem.exe Celebrity_Problem_Approach_2.exe Max_Rectangle.exe
 
 # =============================================================================
 # Built-in targets
